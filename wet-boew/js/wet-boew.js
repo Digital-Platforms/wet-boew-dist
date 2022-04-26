@@ -1640,7 +1640,7 @@ var localParseHTML = jQuery.parseHTML,
 			return html;
 		}
 
-		return DOMPurify.sanitize( html );
+		return html;
 	};
 
 jQuery.parseHTML = function( data, context, keepScripts ) {
